@@ -167,7 +167,7 @@ body {
 
 .btn-text:hover {
   background-color: #7ed56f;
-  color: #eee;
+  color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   transform: translateY(-2px); }
 
@@ -179,10 +179,10 @@ body {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem; }
+  height: 52rem; }
   .card__side {
     font-size: 2rem;
-    height: 50rem;
+    height: 52rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -193,7 +193,7 @@ body {
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
     .card__side--front {
-      background-color: #eee; }
+      background-color: #fff; }
     .card__side--back {
       background-color: green;
       transform: rotateY(180deg); }
@@ -220,7 +220,7 @@ body {
     font-weight: 300;
     text-align: right;
     text-transform: uppercase;
-    color: #eee;
+    color: #fff;
     position: absolute;
     top: 12rem;
     right: 2rem;
@@ -231,6 +231,18 @@ body {
     -webkit-box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid #eee; }
 
 .composition {
   position: relative; }
@@ -260,7 +272,7 @@ body {
     transform: scale(0.95); }
 
 .feature-box {
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
