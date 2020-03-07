@@ -405,7 +405,8 @@ body {
   border-bottom: 3px solid transparent;
   width: 90%;
   color: inherit;
-  display: block; }
+  display: block;
+  transition: all .3s; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
