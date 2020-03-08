@@ -489,6 +489,14 @@ body {
     transform: translate(-50%, -50%);
     text-align: center; }
 
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem; }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
