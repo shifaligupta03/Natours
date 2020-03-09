@@ -493,9 +493,21 @@ body {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem; }
+  .footer__logo-box {
+    text-align: center;
+    margin-bottom: 8rem; }
   .footer__logo {
     width: 15rem;
     height: auto; }
+  .footer__list {
+    list-style: none; }
+  .footer__items {
+    display: inline-block; }
+    .footer__items:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #f7f7f7;
+    text-decoration: none; }
 
 .row {
   max-width: 114rem;
