@@ -4,10 +4,14 @@
 
     &:not(:last-child) {
         margin-bottom: $grid-vertical;
-        
+
         @include respond(tab-port){
             margin-bottom: $grid-vertical-small;
         }
+    }
+
+    @include respond(tab-port){
+        max-width: 50rem;
     }
 
     @include clearfix;
@@ -19,6 +23,7 @@
             margin-right: $gutter-horizontal;
             @include respond(tab-port){
                 margin-right: 0;
+                margin-bottom: $grid-vertical-small;
             }
         }
 
